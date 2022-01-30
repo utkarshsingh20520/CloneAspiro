@@ -1,0 +1,27 @@
+.Booktrip {
+  width: 100%;
+  height: auto;
+  /* background-color: #f1a501; */
+  margin-top: 50px;
+  display: grid;
+  place-items: center;
+}
+
+.Booksec {
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+@media (max-width: 640px){
+
+  .Booksec{
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+}

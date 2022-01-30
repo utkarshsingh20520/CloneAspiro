@@ -1,0 +1,101 @@
+.Subscribe{
+   width: 80%;
+   height: auto;
+   background: rgb(223, 215, 249,.2); 
+   border-radius: 129px 20px 20px 20px;
+   /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+   overflow: visible;
+   position: relative;
+   z-index: 2;
+   margin-bottom: 50px!important;
+   margin-top:50px!important;
+   padding-bottom: 40px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.Subscribes{
+    width:100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+@media (max-width:950px){
+    .Subscribe{
+        width: 100%;
+        height: auto;
+    }
+    .Subscribes{
+        height: auto;
+        width: 100%;
+    }
+}
+
+
+@media (max-width:800px){
+    .Subscribe{
+        max-width: 70rem;
+    }
+}
+
+@media (max-width:650px){
+    .Subscribe{
+        width: 100%;
+        height: auto;
+    }
+    .circle1,.circle2{
+        display:none;
+    }
+    .design{
+        position: absolute;
+        right:0 ;
+        top:0 ;
+    }
+    .design{
+        width:50px;
+        height: 50px;
+    }
+}
+
+.circle1{
+    position: absolute;
+    z-index:100;
+    left:0;
+    bottom:0;
+    opacity: .2;
+}
+
+.circle2{
+    position: absolute;
+    z-index:100;
+    top:0;
+    right:0;
+    opacity: .8;
+}
+
+.design{
+    width:70px;
+    height: 70px;
+    background: linear-gradient(201.65deg, #747DEF 10.27%, #5E3BE1 100%);
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 500;
+    
+}
+
+.icon{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 600;
+    font-size: 2rem;
+    color:#fff;
+}
+

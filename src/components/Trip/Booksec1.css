@@ -1,0 +1,122 @@
+
+.Booksec1 {
+    width: 50%;
+    height: 550px;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 70px 0 20px;
+  }
+  .Booksec1 p:first-child {
+    width: 100%;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    color: #5e6282;
+    margin-bottom: 0;
+  }
+  
+  .bookpsec {
+    font-size: 2.8rem;
+    font-family: "Volkhov", serif;
+    color: #14183e;
+  }
+  
+  
+  .Bookcont {
+    width: 100%;
+    height: auto;
+  }
+  
+  .Book1 {
+    width: 80%;
+    height: 100px;
+    /* background-color:green; */
+    margin-bottom: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Book11 .Book12 .Book13{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Book11 img {
+    background-color: #f0bb1f;
+    border-radius: 13px;
+    padding: 10px;
+  }
+  .Book12 img {
+      background-color: #F15A2B;
+      border-radius: 13px;
+      padding: 14px 10px;
+    }
+    .Book13 img {
+      background-color:  #006380;
+      border-radius: 13px;
+      padding: 13px 10px;
+    }
+  
+  .Book22 {
+     width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 20px;
+    /* background-color: #14183e; */
+  }
+  
+  .Book22 p:first-child {
+    line-height: 124.5%;
+    color: #5e6282;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+  }
+  
+  .Book2 p:last-child {
+    font-weight: normal;
+    font-size: 0.8rem;
+    line-height: 124.5%;
+    font-family: "Poppins", sans-serif;
+    color: #5e6282;
+  }
+  
+
+  @media only screen and (max-width: 640px){
+    .Booksec1 {
+      width: 100%;
+      height: auto;
+    }
+
+    .bookpsec {
+      font-size: 1.6rem;
+    }
+    .Book1 {
+      width: 100%;
+    }
+    .Book22 {
+      width: 80%;
+     padding: 5px 8px;
+     /* background-color: #14183e; */
+   }
+   
+   .Book22 p:first-child {
+     font-size: 0.8rem;
+   }
+   
+   .Book2 p:last-child {
+     font-size: 0.3rem;
+   }
+   
+  }

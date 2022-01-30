@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+.navbars{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 1; */
+    background-color:transparent;
+}
+
+.navbars1 {
+    width: 100%;
+    /* background-color:yellow; */
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.yellowbox{
+    position: relative;
+    z-index: 0;
+} 
+
+.imglogo{
+    z-index: 1;
+}
+
+#logoc
+{
+    background-color: #F1A501;
+    width: 12px;
+    height: 12px;
+    border-radius:30px;
+    z-index: 0;
+    position: absolute;
+    bottom: 7px;
+    right: 6px;
+}
+
+#logoc1{
+    background-color: #F1A501;
+    width: 12px;
+    height: 12px;
+    border-radius:30px;
+    z-index: 0;
+    position: absolute;
+    bottom: 7px;
+    right: 29px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links ul{
+    margin-bottom: 0 !important;
+    width: 100%;
+    padding-left: 0 !important;
+}
+
+.links ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0rem 2rem;
+    color: black;
+    cursor: pointer;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 22px;
+    z-index: 2;
+}
+
+.Signup{
+    background-color: transparent;
+    /* padding: .3rem .9rem;
+    border-radius: 10px; */
+    width: 102px;
+    height: 40px;
+    border-radius:5px;
+    border: 2px solid #212832;
+    font-weight: 600;
+}
+
+.Signup:hover{
+    border: 4px solid #212832;
+}
+
+.Dropd{
+    background-color: transparent;
+    border: 0px;
+    font-weight: 600;
+}
+
+/* .Dropd::after{
+    content: "*";
+} */
+
+@media only screen and (max-width: 1280px){
+    .links ul li{
+        display: none;
+    }
+}
