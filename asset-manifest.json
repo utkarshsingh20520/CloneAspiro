@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/CloneAspiro/static/css/main.b99869f5.css",
+    "main.js": "/CloneAspiro/static/js/main.ec889070.js",
+    "static/media/traveller.png": "/CloneAspiro/static/media/traveller.d6147572657f5b88776a.png",
+    "static/media/rome.png": "/CloneAspiro/static/media/rome.2da9c1233125e6683e20.png",
+    "static/media/europe.png": "/CloneAspiro/static/media/europe.b314c5c451abcd4e13d8.png",
+    "static/media/london.jpg": "/CloneAspiro/static/media/london.c6a0c4d22f19a612d360.jpg",
+    "static/media/Greece.jpg": "/CloneAspiro/static/media/Greece.52f5774b48ecd1764ae1.jpg",
+    "static/media/circle1.png": "/CloneAspiro/static/media/circle1.6bf99dd76dc2398645e8.png",
+    "static/media/circle2.png": "/CloneAspiro/static/media/circle2.f3b3af4fb13345d2666b.png",
+    "index.html": "/CloneAspiro/index.html",
+    "main.b99869f5.css.map": "/CloneAspiro/static/css/main.b99869f5.css.map",
+    "main.ec889070.js.map": "/CloneAspiro/static/js/main.ec889070.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b99869f5.css",
+    "static/js/main.ec889070.js"
+  ]
+}
